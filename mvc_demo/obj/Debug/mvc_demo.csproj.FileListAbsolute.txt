@@ -72,3 +72,13 @@ D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\zh-Hant\System.Web.WebPa
 D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\obj\Debug\mvc_demo.csprojResolveAssemblyReference.cache
 D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\obj\Debug\mvc_demo.dll
 D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\obj\Debug\mvc_demo.pdb
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\EntityFramework.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\EntityFramework.SqlServer.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\LinqToExcel.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\Remotion.Data.Linq.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\Remotion.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\Remotion.Interfaces.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\EntityFramework.xml
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\EntityFramework.SqlServer.xml
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\LinqToExcel.xml
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\zh-Hant\EntityFramework.resources.dll
