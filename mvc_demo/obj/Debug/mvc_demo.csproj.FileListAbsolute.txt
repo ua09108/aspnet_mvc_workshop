@@ -82,3 +82,8 @@ D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\EntityFramework.xml
 D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\EntityFramework.SqlServer.xml
 D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\LinqToExcel.xml
 D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\zh-Hant\EntityFramework.resources.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\PagedList.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\PagedList.Mvc.dll
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\PagedList.xml
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\PagedList.Mvc.xml
+D:\Fun_Coding\WorkShop\aspnet_mvc_workshop\mvc_demo\bin\zh-Hant\EntityFramework.SqlServer.resources.dll
