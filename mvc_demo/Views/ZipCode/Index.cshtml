@@ -70,3 +70,26 @@
 }
 
 </table>
+
+@Html.Partial("_Uploadfile")
+
+@section scripts
+{
+    <script src="~/Scripts/bootbox.js"></script>
+    <script src="~/Scripts/jquery.form.js"></script>
+    <script src="~/Scripts/project.js"></script>
+    <script src="~/Scripts/project.extends.js"></script>
+    <script src="~/Scripts/project.ZipCode.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var actionUrls = {
+                Upload: '@Url.Action("Upload", "ZipCode")'
+            };
+
+            project.ZipCode.Initialize(actionUrls);
+            
+        })    
+
+    </script>
+}
