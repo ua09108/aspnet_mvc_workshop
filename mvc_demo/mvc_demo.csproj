@@ -171,6 +171,8 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ZipCodeController.cs" />
+    <Compile Include="Infrastructure\Helpers\CheckResult.cs" />
+    <Compile Include="Infrastructure\Helpers\ImportDataHelper.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -321,6 +323,7 @@
   <ItemGroup>
     <Folder Include="FileUpload\" />
     <Folder Include="testdata\" />
+    <Folder Include="test\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

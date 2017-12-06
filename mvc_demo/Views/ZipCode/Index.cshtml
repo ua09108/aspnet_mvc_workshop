@@ -84,12 +84,13 @@
     <script type="text/javascript">
         $(document).ready(function () {
             var actionUrls = {
-                Upload: '@Url.Action("Upload", "ZipCode")'
+                Upload: '@Url.Action("Upload", "ZipCode")',
+                Import: '@Url.Action("Import", "ZipCode")'
             };
 
             project.ZipCode.Initialize(actionUrls);
-            
-        })    
+
+        })
 
     </script>
 }

@@ -9,6 +9,7 @@ using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 using System.Web.Configuration;
 using System.IO;
+using mvc_demo.Infrastructure.Helpers;
 
 namespace mvc_demo.Controllers
 {
@@ -125,6 +126,38 @@ namespace mvc_demo.Controllers
                 throw;
             }
             return result;
+        }
+
+        [HttpPost]
+        public ActionResult Import(string savedFileName)
+        {
+            var jo = new JObject();
+            string result;
+
+            try
+            {
+                var fileName = string.Concat(Server.MapPath(fileSavedPath), "/", savedFileName);
+
+                var importZipCodes = new List<TaiwanZipCode>();
+
+                var helper = new ImportDataHelper();
+                var checkResult = helper.CheckImportData(fileName, importZipCodes);
+
+                jo.Add("Result", checkResult.Success);
+                jo.Add("Msg", checkResult.Success ? string.Empty : checkResult.ErrorMessage);
+
+                if (checkResult.Success)
+                {
+                    //儲存匯入的資料
+                    helper.SaveImportData(importZipCodes);
+                }
+                result = JsonConvert.SerializeObject(jo);
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            return Content(result, "application/json");
         }
 
     }

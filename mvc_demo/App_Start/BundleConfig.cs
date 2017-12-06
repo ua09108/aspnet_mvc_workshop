@@ -26,6 +26,7 @@ namespace mvc_demo
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/jasny-bootstrap.css",
                       "~/Content/site.css"));
         }
     }
