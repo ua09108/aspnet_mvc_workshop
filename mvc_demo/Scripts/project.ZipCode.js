@@ -14,7 +14,7 @@
             /// 初始化函式
             /// </summary>
             /// <param name="actionUrls"></param>
-
+           
             jQuery.extend(project.ActionUrls, actionUrls);
 
             //上傳檔案事件處理
@@ -59,6 +59,8 @@
             /// </summary>
             /// <param name="mainID"></param>
 
+           
+            //debugger;
             $.ajax({
                 type: 'post',
                 url: project.ActionUrls.Import,
@@ -67,6 +69,7 @@
                 cache: false,
                 dataType: 'json',
                 success: function (data) {
+                    
                     if (data.Msg) {
                         project.AlertErrorMessage("錯誤", data.Msg);
                         $('#UploadModal').modal('hide');
