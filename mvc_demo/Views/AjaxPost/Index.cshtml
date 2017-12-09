@@ -1,0 +1,35 @@
+﻿@{ Layout = null;}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Test</title>
+    @*<script src="~/Scripts/jquery-3.2.1.js"></script>*@
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.js"></script>
+
+    <script>
+
+        $(function () {
+            //var data = {
+            //    "players[0].Id": "P01",
+            //    "players[0].Name": "Jeffrey",
+            //    "players[1].Id": "P02",
+            //    "players[1].Name": "Darkthread",
+            //};
+
+            var array = [];
+            array.push({ Id: "P03", Name: "Jeffrey" });
+            array.push({ Id: "P04", Name: "Darkthread" });
+
+            //debugger;
+            $.post("@Url.Content("~/AjaxPost/Update")", {players: array} , function (res) {
+                alert(JSON.stringify(res));
+            }, "json");
+        });
+
+    </script>
+</head>
+<body>
+</body>
+</html>
+

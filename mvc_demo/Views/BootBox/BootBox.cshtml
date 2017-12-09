@@ -1,0 +1,116 @@
+﻿@{ 
+    ViewBag.Title = "BoobBox測試";
+}
+
+<title>@ViewBag.Title</title>
+
+<h2 style="background-color: yellow ; color:blue ; text-align: center ; font-style: oblique">使用Boobox Library測試</h2>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+@*<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>*@  
+<script src="~/Scripts/bootbox.min.js"></script>
+
+<script>
+    
+    //bootbox.prompt({        
+    //    title: "This is a prompt with a textarea",
+    //    inputType: 'textarea',
+    //    callback: function (result) {
+    //        bootbox.alert(result);
+    //    }
+    //})
+
+    //bootbox.confirm({
+    //    message: "這是有Yes及No訊息",
+    //    buttons: {
+    //        confirm: {
+    //            label: 'Yes',
+    //            className: 'btn-success'
+    //        },
+    //        cancel: {
+    //            label: 'No',
+    //            className: 'btn-danger'
+    //        }
+    //    },
+    //    callback: function (result) {
+    //        bootbox.alert('您選擇的是:' + result);
+    //    }
+    //});
+
+    //bootbox.prompt({
+    //    title: "輸入密碼",
+    //    inputType: 'password',
+    //    callback: function (result) {
+    //        bootbox.alert(result);
+    //    }
+    //})
+
+    //var dialog = bootbox.dialog({
+    //    title: '定訂 Dialog',
+    //    message: '<p><i class="fa fa-spin fa-spinner"></i>Loading...</p>'
+    //});
+    //dialog.init(function () {
+    //    setTimeout(function () {
+    //        dialog.find('.bootbox-body').html('Loading after the dialog was shown');
+    //    }, 3000);
+    //});
+
+
+
+    //bootbox.alert({
+    //    message: "This is the samll alert",
+    //    size: 'small'
+    //})
+
+    //bootbox.prompt({
+    //    title: "This is a prompt with a set of checkbox inputs!",
+    //    inputType: 'checkbox',
+    //    inputOptions: [
+    //        {
+    //            text: 'Choice One',
+    //            value: '1',
+    //        },
+    //        {
+    //            text: 'Choice Two',
+    //            value: '2',
+    //        },
+    //        {
+    //            text: 'Choice Three',
+    //            value: '3',
+    //        }
+    //    ],
+    //    callback: function (result) {
+    //        bootbox.alert(result);
+    //    }
+    //});  
+
+
+
+    //bootbox.prompt({
+    //    title: "This is a prompt with a number input!",
+    //    inputType: 'number',
+    //    callback: function (result) {
+    //        bootbox.alert(result);
+    //    }
+    //});  
+
+
+    bootbox.prompt({
+        title: "Write Your Name",
+        placeholder: "Type Here....",
+        inputType: 'text',
+        callback: function (result) {
+            bootbox.alert(result);
+        }
+    });  
+
+
+
+</script>
+
+
+
